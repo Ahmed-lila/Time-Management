@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time table</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/css/favicon.png">
+</head>
+<body>
+    <nav>
+        <!-- <h1>
+            Time Table
+        </h1> -->
+        <img src="assets/css/logo.png" alt="logo">
+        <ul>
+            <li>
+                <a href="login/login.html">
+                    Login
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <section id="section">
+        <form>
+            <div class="inputs-container">
+                <input type="text" placeholder="Task name..." class="task-name" id="NI">
+                <input type="time" class="time" id="TI">
+                <input type="date" class="date" id="DI">
+            </div>
+            <div class="btn">
+                <input type="submit" value="Add Task" id="taskIB">
+            </div>
+        </form>
+        <table id="maintable-body">
+            <tr>
+                <th>Task</th>
+                <th>Time</th>
+                <th>Date</th>
+                <th>Done</th>
+            </tr>
+        </table>
+    </section>
+    <!-- <footer>
+        All rights reserved &copy; <span>Time Management<sup>&trade;</sup></span>
+    </footer> -->
+    <script src="assets/Tableadding.js"></script>
+</body>
+</html>
